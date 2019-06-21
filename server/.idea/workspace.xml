@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b29138c2-6fc2-4eea-b2b7-83080769262a" name="Default Changelist" comment="">
+    <list default="true" id="9cd07c9e-e52b-4872-a134-9cd2e205a86f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../proto/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../proto/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../proto/.idea/proto.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../proto/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/.idea/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/.idea/client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../proto/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../proto/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../proto/hello_world.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../proto/hello_world.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +25,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="936033852">
+    <session id="553415205">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.0" value="1" />
@@ -44,14 +44,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="23" />
-          <entry key="txt" value="10" />
+          <entry key="go" value="25" />
+          <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="23" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Go" value="25" />
+          <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -61,8 +61,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="760">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="e#14#213#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,18 +108,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,11 +144,11 @@
   </component>
   <component name="RunManager">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="client" />
+      <module name="server" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/main.go" />
-      <package value="github.com/jerryzhengj/gomirco/client" />
+      <package value="github.com/jerryzhengj/gomirco/server" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -168,7 +171,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19109195" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32902297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -192,8 +195,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="760">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#213#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
