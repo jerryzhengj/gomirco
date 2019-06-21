@@ -20,7 +20,7 @@ func (g *HelloWorld) Hello(ctx context.Context, req *hello_world.HelloRequest, r
 func main() {
 	reg := etcdv3.NewRegistry(func(op *registry.Options) {
 		op.Addrs = []string{
-			"http://192.168.10.110:2379",
+			"http://192.168.10.110:2379", //本机ip是192.168.10.110
 		}
 	})
 	service := micro.NewService(
